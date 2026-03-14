@@ -18,7 +18,6 @@ public class Student {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private  Long id;
 
-    @Column(nullable = false)
     private String email;
 
     @Column(name = "full_name",nullable = false)
